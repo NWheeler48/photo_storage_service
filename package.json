@@ -1,10 +1,12 @@
 {
+  "type": "module",
   "name": "photo_storage_service",
   "version": "1.0.0",
   "description": "A service that authenticates users and stores photos on a server.",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "npm app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/NWheeler48/photo_storage_service/issues"
   },
-  "homepage": "https://github.com/NWheeler48/photo_storage_service#readme"
+  "homepage": "https://github.com/NWheeler48/photo_storage_service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
 }
