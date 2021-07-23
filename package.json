@@ -1,0 +1,19 @@
+{
+  "name": "photo_storage_service",
+  "version": "1.0.0",
+  "description": "A service that authenticates users and stores photos on a server.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NWheeler48/photo_storage_service.git"
+  },
+  "author": "Nicholas Wheeler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NWheeler48/photo_storage_service/issues"
+  },
+  "homepage": "https://github.com/NWheeler48/photo_storage_service#readme"
+}
