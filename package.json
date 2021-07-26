@@ -5,7 +5,7 @@
   "description": "A service that authenticates users and stores photos on a server.",
   "main": "app.js",
   "scripts": {
-    "test": "test",
+    "test": "mocha",
     "start": "npm app.js"
   },
   "repository": {
@@ -20,6 +20,10 @@
   "homepage": "https://github.com/NWheeler48/photo_storage_service#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "firebase-admin": "^9.11.0",
     "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3"
   }
 }
