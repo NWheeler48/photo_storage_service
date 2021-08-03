@@ -1,4 +1,5 @@
 *package-lock.json
 node_modules
-*.log
 *photolibrary-63c50-e0c58a0c213b.json
+.env
+**/logs/**.log
